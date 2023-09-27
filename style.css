@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-1{
+    border: 1px solid rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form{
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    height: 40px;
+    width: 300px;
+    padding-left: 1rem;
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.submit{
+    height: 40px;
+    width: 300px;
+    padding-left: 1rem;
+    background-color: rgb(25, 161, 215);
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: medium;
+    color: white;
+    border-radius: 10px;
+}
+
+.or{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(57, 57, 57);
+}
+
+.fb-text{
+    font-weight: 600;
+    color: rgb(56, 71, 124);
+}
+
+.forgot_password{
+    font-size: small;
+    color: rgb(76, 74, 134);
+}
+
+.container-2{
+    border: 1px solid rgb(220, 220, 220);
+    padding: 20px 85px 20px 85px;
+
+}
+
+.sign_up-text{
+    color: rgb(25, 161, 215);
+    font-weight: 600;
+}
